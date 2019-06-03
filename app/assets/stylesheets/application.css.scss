@@ -25,13 +25,14 @@ html {
 }
 
 body {
- 	height: 100%;
-  background: -webkit-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #4CB8C4 10%, #EAECC6 100%);
-  font-family: 'Lato', sans-serif;
+background: rgba(250,112,154,1);
+background: -moz-linear-gradient(left, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(250,112,154,1)), color-stop(100%, rgba(254,225,64,1)));
+background: -webkit-linear-gradient(left, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+background: -o-linear-gradient(left, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+background: -ms-linear-gradient(left, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+background: linear-gradient(to right, rgba(250,112,154,1) 0%, rgba(254,225,64,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa709a', endColorstr='#fee140', GradientType=1 );
 }
 
 .clearfix:before,
@@ -174,9 +175,9 @@ body {
 	margin: 1.5em auto 0 auto;
 	text-align: center;
 	font-size: 0.8em;
-	color: white;
+	color: red;
 	a {
-		color: white;
+		color: red;
 	}
 }
 
